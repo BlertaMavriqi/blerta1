@@ -42,3 +42,14 @@ var [firstNum, secondNum, ...otherNums] = numbers
 console.log(firstNum)
 console.log(secondNum)
 console.log(otherNums)
+
+
+
+
+
+
+
+
+
+
+
