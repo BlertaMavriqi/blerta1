@@ -5,7 +5,7 @@ function validate(){
 
     var age = document.getElementById('age').value 
 
-    var age_regex = /^[0-9]=$/
+    var age_regex = /^[0-9]+$/
 
     var city = document.getElementById('city').value
 
