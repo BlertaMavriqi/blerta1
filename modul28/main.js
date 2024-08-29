@@ -38,3 +38,19 @@ document.getElementById('rez8').innerHTML = text7.match(regex3)
 var text8 = "100 percent"
 var regex4 = /\d/g;
 document.getElementById('rez9').innerHTML = text8.match(regex4)
+
+
+
+var text9 = 'hello, helloo, helloooo, helloooooo'
+var regex5 = /o{3,5}/g;//kontrollo kush i ka 3 deri 5 O-ja
+document.getElementById('rez10').innerHTML = text9.match(regex5)
+
+//fjala perfundon me shkronje specifike
+var text10 = "bestfriend, girlfriend, boyfriend"
+var regex6 = /end$/g
+document.getElementById('rez11').innerHTML = text10.match(regex6)
+
+var text11 = 'cat, catalog, category'
+var regex7 = /^cat/g
+document.getElementById('rez12').innerHTML = text11.match(regex7)
+
