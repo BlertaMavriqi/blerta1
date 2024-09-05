@@ -9,6 +9,6 @@ $('.student');
 $('a.test:first');
 $('tr.odd');
 
-$('li').click(function(){
+$('.test').click(function(){
     alert('clicked');
 })
